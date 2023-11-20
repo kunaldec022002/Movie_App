@@ -1,0 +1,45 @@
+.posterImage{
+    z-index: 999;
+    height: 40vh;
+}
+
+.posterImage_overlay{
+    position: relative;
+    bottom: 10%;
+    font-weight: 700;
+}
+.posterImage_description{
+    line-height: 1.9rem;
+}
+.poster{
+    margin-bottom: 5rem;
+}
+.posterImage_description{
+    width: 65vw;
+}
+.posterImage_rating i{
+    color: yellow;
+}
+
+.posterImage_runtime{
+     margin-left: -45rem;
+     margin-bottom: 2.5rem;
+     font-size: 20px;
+     
+}
+
+.posterImage_title{
+    font-size: 32px;
+    margin-left: -40rem;
+    margin-bottom: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media (min-width:400px) {
+   .poster{
+    height: 100vh;
+   }
+    .posterImage_description{
+    width:90vw;
+}
+}
