@@ -1,0 +1,15 @@
+.header{
+    background-color: black;
+}
+.header img{
+    height: 3rem;
+}
+.headerleft span{
+    color: white;
+    font-size: 1.5rem;
+}
+.headerleft{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

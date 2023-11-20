@@ -3,7 +3,7 @@ import "./Home.css"
 import { Link } from 'react-router-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import MovieList from '../../Components/movielist/movieList';
+import MovieList from '../../Components/Movielist/Movielist';
 const Home = () => {
     const [popularmovie,setPopularmovie] = useState([])
     useEffect(()=>{
