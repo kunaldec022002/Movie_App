@@ -4,6 +4,7 @@ import Header from './Components/Header/Header';
 import Home from '../src/Pages/Home/Home';
 import MovieList from '../src/Components/Movielist/Movielist';
 import Movie from '../src/Pages/movieDetail/movie';
+
 function App() {
 
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="movie/:id" element={<Movie/>} />
           <Route path="movies/:type" element={<MovieList/>} />
           <Route path="/*" element={<h2>Error page</h2>} />
+      
         </Routes>
       </Router>
     </div>
